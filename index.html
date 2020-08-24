@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+<style>
+fieldset {
+  background-color: #eeeeee;
+}
+ p{
+  font-family: Arial;
+}
+</style>
+</head>
+<body style="font-family: Arial">
+	<fieldset>
+	<legend><i><h2>Choose any of the Options </h2></i></legend>
+	<form method="post">
+		<p>
+      <input type="radio" id="option1" name="home" value="addstudent" onchange="window.location.replace('add-student.html')">
+  			<label for="Add">Add New Student</label></p><br>
+  	<p>
+      <input type="radio" id="option2" name="home" value="searchbyid" onchange="window.location.replace('search-student.html')">
+  			<label for="Search">Search for a Student by ID</label></p><br>
+  	<p><input type="radio" id="option3" name="home" value="display" onchange="window.location.replace('display-student.php')">
+  			<label for="Display">Display all the Students</label></p><br>
+  </fieldset>
+  </legend>
+</body>
+</html>
